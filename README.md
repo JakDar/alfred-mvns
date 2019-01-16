@@ -1,7 +1,7 @@
 # alfred-mvns-sbt
 > Fork of  [alfred-mvns](https://github.com/xfslove/alfred-mvns).
 
-[![NPM](https://nodei.co/npm/alfred-mvns.png)](https://nodei.co/npm/alfred-mvns/)
+[![NPM](https://nodei.co/npm/alfred-mvns-sbt.png)](https://nodei.co/npm/alfred-mvns-sbt/)
 
 ## Install
 
