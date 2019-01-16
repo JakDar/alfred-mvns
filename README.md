@@ -1,5 +1,7 @@
 # alfred-mvns-sbt
 > Fork of  [alfred-mvns](https://github.com/xfslove/alfred-mvns).
+> Saving sbt dependency to clipboard intead of sbt, added maven url opening.
+
 
 [![NPM](https://nodei.co/npm/alfred-mvns-sbt.png)](https://nodei.co/npm/alfred-mvns-sbt/)
 
@@ -7,7 +9,7 @@
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
-- npm install `npm install -g alfred-mvns`
+- npm install: `npm install -g alfred-mvns-sbt`
 
 ## Usage
 
