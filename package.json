@@ -1,19 +1,18 @@
 {
-  "name": "alfred-mvns",
-  "version": "1.0.2",
-  "description": "Alfred 3 workflow to search for java libraries at central repo",
+  "name": "alfred-mvns-sbt",
+  "version": "1.0.3",
+  "description": "Alfred 3 workflow to search for java / scala libraries at central repo",
   "license": "MIT",
-  "repository": "xfslove/alfred-mvns",
+  "repository": "JakDar/alfred-mvns",
   "author": {
-    "name": "hanwen.huang",
-    "email": "xfslove@gmail.com",
-    "url": "https://github.com/xfslove/alfred-mvns"
+    "name": "Jakub Darul",
+    "email": "npm@fstgap.33mail.com",
+    "url": "https://github.com/JakDar/alfred-mvns"
   },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
@@ -30,12 +29,8 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.6.0",
+    "alfy": "^0.8.0",
     "date-format": "^1.1.0"
   },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "*",
-    "xo": "*"
-  }
+  "devDependencies": {}
 }

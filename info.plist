@@ -12,7 +12,43 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>4BB3CE38-363C-405E-8F2E-B17375E5190E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7345A94E-9383-420E-A555-36D1F7165A94</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4BB3CE38-363C-405E-8F2E-B17375E5190E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>50B7B6A5-8381-4941-B19A-52654E0EFE56</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7345A94E-9383-420E-A555-36D1F7165A94</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EF7B323A-4751-4DB9-96E0-90F20CAE742F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -92,6 +128,63 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(?!http).</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>4BB3CE38-363C-405E-8F2E-B17375E5190E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>EF7B323A-4751-4DB9-96E0-90F20CAE742F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^http</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>7345A94E-9383-420E-A555-36D1F7165A94</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -104,12 +197,33 @@
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+		<key>4BB3CE38-363C-405E-8F2E-B17375E5190E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
 		<key>50B7B6A5-8381-4941-B19A-52654E0EFE56</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>420</integer>
 			<key>ypos</key>
 			<integer>10</integer>
+		</dict>
+		<key>7345A94E-9383-420E-A555-36D1F7165A94</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+		<key>EF7B323A-4751-4DB9-96E0-90F20CAE742F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>140</integer>
 		</dict>
 	</dict>
 </dict>

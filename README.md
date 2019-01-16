@@ -1,4 +1,6 @@
-# alfred-mvns
+# alfred-mvns-sbt
+> Fork of  [alfred-mvns](https://github.com/xfslove/alfred-mvns).
+
 [![NPM](https://nodei.co/npm/alfred-mvns.png)](https://nodei.co/npm/alfred-mvns/)
 
 ## Install
@@ -7,37 +9,19 @@
 
 - npm install `npm install -g alfred-mvns`
 
-- [download](https://github.com/xfslove/alfred-mvns/releases) workflow
-
 ## Usage
 
-In Alfred, type `mvn`, and your query, to search for java libraries at maven central repository.
+In Alfred, type `mvn`, and your query, to search for java / scala libraries at maven central repository.
 
-Select a item and press <kbd>enter</kbd> to copy `maven dependency` to clipboard.<br>
+Select a item and press <kbd>enter</kbd> to copy `sbt dependency` to clipboard.<br>
 
 Hold <kbd>alt</kbd> and press <kbd>enter</kbd> to copy `gradle dependency` to clipboard.<br>
 
-## Demo
-
-![mvn.png](mvn.png)
-
-press <kbd>enter</kbd> get:
-
-```
-<dependency>
-  <groupId>org.nd4j</groupId>
-  <artifactId>jackson</artifactId>
-  <version>0.9.1</version>
-</dependency>
-```
-Hold <kbd>alt</kbd> and press <kbd>enter</kbd> get:
-
-```
-compile 'org.nd4j:jackson:0.9.1'
-```
+Hold <kbd>ctrl</kbd> and press <kbd>enter</kbd> to open dependency link in web browser without copying anything.<br>
 
 ## Related
 
+- [alfred-mvns](https://github.com/xfslove/alfred-mvns) - orgininal project
 - [alfy](https://github.com/sindresorhus/alfy) - Create Alfred workflows with ease
 
 
