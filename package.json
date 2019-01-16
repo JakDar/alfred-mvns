@@ -1,6 +1,6 @@
 {
   "name": "alfred-mvns-sbt",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Alfred 3 workflow to search for java / scala libraries at central repo",
   "license": "MIT",
   "repository": "JakDar/alfred-mvns",

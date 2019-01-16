@@ -1,6 +1,6 @@
 # alfred-mvns-sbt
 > Fork of  [alfred-mvns](https://github.com/xfslove/alfred-mvns).
-> Saving sbt dependency to clipboard intead of sbt, added maven url opening.
+> Saving sbt dependency to clipboard intead of mvn dependency, added maven url opening.
 
 
 [![NPM](https://nodei.co/npm/alfred-mvns-sbt.png)](https://nodei.co/npm/alfred-mvns-sbt/)
